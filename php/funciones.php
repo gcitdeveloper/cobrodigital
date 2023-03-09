@@ -1,10 +1,10 @@
 <?php
 //Archivo de funciones
 function datos($tipo){
-//Conexión a la DB
-$conexion = new mysqli("localhost","root","agus2008","cobrodigital");
+//ConexiÃ³n a la DB
+$conexion = new mysqli("localhost","root","password","cobrodigital");
 if (mysqli_connect_errno()) {
-    printf("Error de conexión: %s\n", $conexion->connect_error);
+    printf("Error de conexiÃ³n: %s\n", $conexion->connect_error);
     exit();
 }
 
@@ -36,7 +36,7 @@ echo json_encode($obj);
 //Libera memoria
 $resultado->free();
 
-//Cierra conexión
+//Cierra conexiÃ³n
 $conexion->close();
 }
 ?>
