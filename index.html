@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Test Cobro Digital</title>
+  
+  <!-- Hoja de estilos CSS -->
+  <link rel="stylesheet" href="css/estilos.css">
+  
+  <!-- Funciones Javascript -->
+  <script src="js/datos.js"></script>
+  </head>
+  <body>
+     <header>
+     <img src="img/logo.svg" class="logo">
+     </header>
+  
+     <main>
+     <section>
+     <select id="tipo" onchange="datos(this.value)">
+     <option value="0370">Débitos efectuados - Rendición cobranza</option>
+     <option value="0360">Débitos rechazados - Rendición cobranza</option>
+     <option value="0371">Reversión solicitada en el Banco de la cuenta</option>
+     <option value="Pluspagos">Pluspagos</option>
+     </select>
+     <div id="data"></div>
+     </section>
+     </main>
+  </body>
+</html>

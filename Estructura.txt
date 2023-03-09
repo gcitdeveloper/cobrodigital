@@ -1,0 +1,18 @@
+Estructura programa de visualización de pagos.
+Test Cobro Digital
+
+Directorios
+css -> Contiene archivo estilos.css con los estilos visuales aplicados en el programa
+
+db -> Contiene el archivo db.sql con la estructura y datos de la base de datos
+
+docs -> Contiene los documentos del test
+
+img -> Contiene la imagen del logo
+
+js -> Contiene el archivo datos.js con las funciones javascript
+
+php -> Contiene los archivos procesador.php encargado de recibir la petición http por medio de ajax y realizar la llamada a la función php para obtener los datos 
+y el archivo funciones.php que contiene la funcion datos
+
+index.html

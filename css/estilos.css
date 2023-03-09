@@ -1,0 +1,46 @@
+/*Hoja de estilos*/
+body{font-family:Arial}
+h2{text-align:center}
+table, th, td{border:solid 1px #e5e5e5}
+table{border-spacing: 0;border-radius:10px;margin:auto}
+td{padding:10px}
+th{background-color:#e2e2e2;font-weight:600;padding:10px}
+select{padding:5px;border-radius:5px;font-size:14px;background:#EF0911 !important;color:#ffffff}
+.logo{width:250px}
+#data{padding-top:10px}
+
+/*Desktop*/
+@media(min-width: 1366px){
+header, section{
+width:1150px;
+margin:0 auto;
+}
+}
+
+/*Dispositivos Tablets*/
+@media(max-width: 1365px){
+header, section{
+width:90%;
+padding:10px 30px;
+margin:0 auto;
+}
+table{
+font-size:12px;
+}
+th{padding:5px}
+td{padding:5px}
+}
+
+/*Dispositivos móviles*/
+@media(max-width: 414px){
+header, section{
+width:90%;
+padding:10px 10px;
+margin:0 auto;
+}
+table{
+font-size:9px;
+}
+th{padding:5px}
+td{padding:5px}
+}
